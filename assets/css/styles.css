@@ -3,16 +3,20 @@ header{
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(1, 1fr);
     gap: 10px;
+    border-radius: 40px;
+    padding: 20px;
 }
 
 .cont_header {
     border: 5px solid;
     grid-column: span 2 / span 2;
+    border-radius: 20px;
 }
 
 .cont_nav {
     border: 5px solid;
     grid-column-start: 3;
+    border-radius: 20px;
 }
 
 .cont_nav li {
@@ -26,23 +30,29 @@ main {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
     gap: 10px;
+    border-radius: 40px;
+    padding: 20px;
 }
 
 .cont_title {
     border: 5px solid;
     grid-column: span 3 / span 3;
+    border-radius: 20px;
+    place-items: center;
 }
 
 .cont_proy {
     border: 5px solid;
     grid-column: span 2 / span 2;
     grid-row-start: 2;
+    border-radius: 20px;
 }
 
 .cont_git {
     border: 5px solid;
     grid-column-start: 3;
     grid-row-start: 2;
+    border-radius: 20px;
 }
 
 footer {
@@ -51,9 +61,12 @@ footer {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(1, 1fr);
     gap: 10px;
+    border-radius: 40px;
+    padding: 20px;
 }
 
 .cont_foot {
     border: 5px solid;
     grid-column: span 3 / span 3;
+    border-radius: 20px;
 }
