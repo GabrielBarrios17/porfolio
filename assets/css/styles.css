@@ -1,4 +1,4 @@
-header{
+header {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(1, 1fr);
@@ -8,12 +8,14 @@ header{
 }
 
 .cont_header {
+    background-color: #6A9AB0;
     border: 5px solid;
     grid-column: span 2 / span 2;
     border-radius: 20px;
 }
 
 .cont_nav {
+    background-color: #6A9AB0;
     border: 5px solid;
     grid-column-start: 3;
     border-radius: 20px;
@@ -35,6 +37,9 @@ main {
 }
 
 .cont_title {
+    background-image: url('/assets/img/background.svg');
+    background-size: 700px;
+    background-color: #6A9AB0;
     border: 5px solid;
     grid-column: span 3 / span 3;
     border-radius: 20px;
@@ -42,6 +47,7 @@ main {
 }
 
 .cont_proy {
+    background-color: #3A6D8C;
     border: 5px solid;
     grid-column: span 2 / span 2;
     grid-row-start: 2;
@@ -49,6 +55,7 @@ main {
 }
 
 .cont_git {
+    background-color: #3A6D8C;
     border: 5px solid;
     grid-column-start: 3;
     grid-row-start: 2;
@@ -66,7 +73,22 @@ footer {
 }
 
 .cont_foot {
+    background-color: #6A9AB0;
     border: 5px solid;
     grid-column: span 3 / span 3;
     border-radius: 20px;
+}
+
+body {
+    background-color: #EAD8B1;
+    font-family: 'Nunito',system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a {
+    color: #001F3F;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('assets\fonts\Nunito-VariableFont_wght.ttf') format('ttf');
 }
